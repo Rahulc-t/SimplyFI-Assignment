@@ -76,7 +76,7 @@ peer chaincode query -C $CHANNEL_NAME -n Scholar -c '{"function":"getHistory","A
 ```
 peer chaincode query -C $CHANNEL_NAME -n Scholar -c '{"function":"queryStudentsByStatus","Args":["Submitted"]}'
 ```
-this command will fetch all the netries which have status as Submitted
+this command will fetch all the entries which have status as Submitted
 
 
 
